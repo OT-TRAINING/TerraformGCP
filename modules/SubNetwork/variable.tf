@@ -10,19 +10,19 @@ variable "vpc_name" {
 variable "primary_cidr" {
   type        = string
   description = "Enter Primary CIDR Range here"
-  default     = "10.2.0.0/16"
+  default     = "10.27.0.0/16"
 }
 
 variable "region_name" {
   type        = string
   description = "Enter Region here"
-  default     = "us-central1"
+  default     = "asia-east1"
 }
 
 variable "secondary_cidr" {
   type        = string
   description = "Enter Secondary CIDR Range here"
-  default     = "192.168.10.0/24"
+  default     = "192.168.68.0/24"
 }
 
 variable "secondary_range_name" {

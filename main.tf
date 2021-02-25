@@ -8,7 +8,7 @@ provider "google" {
 
 module "final_one" {
   source        = "./infra"
-  resource_name = "your-team-name"
+  resource_name = "test"
 }
 
 
