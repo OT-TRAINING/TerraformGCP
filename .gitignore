@@ -1,2 +1,8 @@
 .terraform/
 wiki.md
+creds.json
+*.tfstate.*
+*.tfstate
+*.tfvars
+
+
