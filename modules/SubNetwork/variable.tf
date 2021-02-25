@@ -1,7 +1,6 @@
 variable "resource_name" {
   type        = string
   description = "Give the resource name"
-  default     = "{YOUR_TEAM_NAME}"
 }
 
 variable "vpc_name" {
